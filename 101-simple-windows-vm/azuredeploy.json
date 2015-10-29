@@ -26,6 +26,17 @@
         "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
       }
     },
+    "location": {
+      "type": "string",
+      "defaultValue": "West Us",
+      "allowedValues": [
+        "West US",
+        "East US 2"
+      ],
+      "metadata": {
+        "description": "Restrict choices to where premium storage is located in the US."
+      }
+    },
     "windowsOSVersion": {
       "type": "string",
       "defaultValue": "2012-R2-Datacenter",
@@ -38,7 +49,7 @@
         "description": "The Windows version for the VM. This will pick a fully patched image of this given Windows version. Allowed values: 2008-R2-SP1, 2012-Datacenter, 2012-R2-Datacenter."
       }
     },
-    "sixeOfEachDataDiskInGB": {
+    "sizeOfEachDataDiskInGB": {
       "type": "string",
       "metadata": {
         "description": "Size of each data disk in GB"
