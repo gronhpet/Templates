@@ -13,6 +13,12 @@
     },
     "dnsNameForPublicIP": {
       "value": "PG1234"
+    },
+    "location": {
+      "value": "West US"
+    },
+    "sixeOfDiskInGB": {
+      "value": "20"
     }
   }
 }
