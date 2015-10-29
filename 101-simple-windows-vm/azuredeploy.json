@@ -54,7 +54,7 @@
       "metadata": {
         "description": "Size of each data disk in GB"
       }
-    }
+    },
   },
   "variables": {
     "imagePublisher": "MicrosoftWindowsServer",
